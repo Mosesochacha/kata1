@@ -5,7 +5,7 @@ function newArray() {
   let num = newnumber.map((num) => {let newnum = Math.pow(num, 2);
     return newnum;
   });
-  let newnumarr = num.join("");
+  let newnumarr =parseInt(num.join(""));
   console.log(newnumarr);
 }
 
